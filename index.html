@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Would you like to go on a date?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="cli">
+    <p>Welcome to the CLI Date Invitation</p>
+    <p>Type 'date' to go on a date!</p>
+    <input type="text" id="input" onkeypress="handleKeyPress(event)">
+    <p id="response"></p>
+    <p id="warning"></p>
+    <input type="date" id="date" style="display: none;">
+    <input type="time" id="time" style="display: none;">
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
